@@ -1,0 +1,30 @@
+From 34fb236060b558d8cee2c0865e9b655838bd379c Mon Sep 17 00:00:00 2001
+From: Marek Goldmann <marek.goldmann@gmail.com>
+Date: Tue, 17 Jun 2014 12:03:54 +0200
+Subject: [PATCH] JDK8 compatibility
+
+---
+ src/main/java/org/jboss/apiviz/Edge.java | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/src/main/java/org/jboss/apiviz/Edge.java b/src/main/java/org/jboss/apiviz/Edge.java
+index 07fa1b0..1f72b55 100644
+--- a/src/main/java/org/jboss/apiviz/Edge.java
++++ b/src/main/java/org/jboss/apiviz/Edge.java
+@@ -580,5 +580,13 @@ public class Edge implements Comparable<Edge> {
+         public AnnotationTypeDoc asAnnotationTypeDoc() {
+             throw new UnsupportedOperationException("Not supported yet.");
+         }
++
++        public Type getElementType() {
++            return null;
++        }
++
++        public AnnotatedType asAnnotatedType() {
++            throw new UnsupportedOperationException("Not supported yet.");
++        }
+     }
+ }
+-- 
+1.9.3
+
