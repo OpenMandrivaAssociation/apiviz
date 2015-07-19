@@ -4,7 +4,7 @@
 
 Name:             apiviz
 Version:          1.3.2
-Release:          8.1
+Release:          8.2
 Summary:          APIviz is a JavaDoc doclet to generate class and package diagrams
 Group:            Development/Java
 License:          LGPLv2+
