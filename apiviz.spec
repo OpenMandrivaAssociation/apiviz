@@ -8,7 +8,7 @@ Release:          8.4
 Summary:          APIviz is a JavaDoc doclet to generate class and package diagrams
 Group:            Development/Java
 License:          LGPLv2+
-URL:              http://code.google.com/p/apiviz/
+URL:              https://code.google.com/p/apiviz/
 Source0:          http://apiviz.googlecode.com/files/apiviz-%{namedversion}-dist.tar.gz
 Patch0:           0001-JDK7-compatibility.patch
 Patch1:           0002-JDK8-compatibility.patch
